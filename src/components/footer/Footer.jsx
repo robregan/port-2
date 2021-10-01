@@ -1,18 +1,15 @@
 import React from "react";
 import {
-  FaFacebookF,
   FaTwitter,
-  FaInstagram,
   FaLinkedinIn,
-  FaPinterestP,
+  FaGithub,
 } from "react-icons/fa";
 
 const SocialShare = [
-  { Social: <FaFacebookF />, link: "https://www.facebook.com/" },
-  { Social: <FaTwitter />, link: "https://www.linkedin.com/" },
-  { Social: <FaInstagram />, link: "https://www.instagram.com/" },
-  { Social: <FaLinkedinIn />, link: "https://twitter.com/" },
-  { Social: <FaPinterestP />, link: "https://www.pinterest.com/" },
+  { Social: <FaGithub />, link: "https://github.com/robregan" },
+  { Social: <FaTwitter />, link: "https://twitter.com/rob_regan_dev" },
+  { Social: <FaLinkedinIn />, link: "https://www.linkedin.com/in/robert-regan-dev/" },
+  
 ];
 
 const Footer = () => {
@@ -20,10 +17,10 @@ const Footer = () => {
     <>
       <div className="row align-items-center">
         <div className="col-md-6 my-2">
-          <div className="nav justify-content-center justify-content-md-start">
+          <div className="nav justify-content-end">
             {SocialShare.map((val, i) => (
               <a key={i} href={`${val.link}`} rel="noreferrer" target="_blank">
-                {val.Social}
+                <h1 className="socials">{val.Social}</h1>
               </a>
             ))}
           </div>
@@ -31,7 +28,7 @@ const Footer = () => {
         </div>
         {/* End .col */}
 
-        <div className="col-md-6 my-2 text-center text-md-end">
+        {/* <div className="col-md-6 my-2 text-center text-md-end">
           <p>
             © {new Date().getFullYear()} copyright{" "}
             <a
@@ -43,7 +40,7 @@ const Footer = () => {
             </a>{" "}
             all right reserved
           </p>
-        </div>
+        </div> */}
         {/* End .col */}
       </div>
       {/* End .row */}

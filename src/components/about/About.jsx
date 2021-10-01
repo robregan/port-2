@@ -1,7 +1,5 @@
 import React from "react";
 import Social from "../Social";
-import Testimonials from "../../components/testimonial/Testimonial";
-import Services from "../../components/service/Service";
 import Awards from "../../components/award/Awards";
 
 const About = () => {
@@ -14,7 +12,7 @@ const About = () => {
               <div className="about-me">
                 <div className="img">
                   <div className="img-in">
-                    <img src="img/about/about-me.jpg" alt="about image" />
+                    <img src="img/about/about-me.jpg" alt="about" />
                   </div>
                   <Social />
                   {/* End social icon */}
