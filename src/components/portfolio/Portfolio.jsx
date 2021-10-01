@@ -47,10 +47,10 @@ const AllPortfolioContent = [
    link: "https://text-checka.herokuapp.com/",
   },
   {
-    img: "spotify",
-    title: "Spotify Clone React",
-    subTitle: "web player for spotify",
-    link: "https://sp0tify-cl0ne.herokuapp.com/",
+    img: "drum",
+    title: "JavaScript Drum Machine!",
+    subTitle: "Make some dope beats!",
+    link: "https://beat-machine-js.netlify.app/",
   },
   {
     img: "reddit",
