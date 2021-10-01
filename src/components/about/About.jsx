@@ -35,7 +35,7 @@ const About = () => {
                 </div>
                 <div className="about-text">
                   <p>
-                  I am a software engineer based out of New Jersey, specializing in fullstack JavaScript. If I am not coding a project or learning new material, I am most likely practicing yoga, snowboarding in the Rockies, or just relaxing with the wife and dog.
+                  I am a software engineer based out of New Jersey, specializing in fullstack JavaScript. If I am not coding a project or learning new material, I am most likely practicing yoga, snowboarding in the Rockies, or just relaxing with my wife and <a href="https://imgur.com/gallery/WlYJeH4" target="_blank">dog.</a> 
                   </p>
                   <p>
                   Since High School, I have always had an interest in tinkering with my devices, from installing Game Boy Advanced emulators on my TI89 graphing calculator, to jailbreaking my iPhone for a <strong><em>much</em></strong> better user experience. I have really been enjoying building wonderful web apps that provide value to my community.
