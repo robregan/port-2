@@ -42,7 +42,7 @@ const HomeTwo = () => {
             <li><a href="https://github.com/robregan/text-analyzer" target="_blank">Text Sentiment Analysis</a></li>
             <li><a href="https://github.com/robregan/spotify-clone" target="_blank">Spotify Clone</a></li>
             <li><a href="https://github.com/robregan/reddit" target="_blank">Reddit Clone</a></li>
-            <li><a href="https://github.com/robregan/object-finder" target="_blank">Object Recognition App</a></li>
+            <li><a href="https://github.com/robregan/object-finder" target="_blank">Object Recognition</a></li>
             <li><a href="https://github.com/robregan/translator" target="_blank">Voice Translator</a></li>
             </ul>
             </div>
