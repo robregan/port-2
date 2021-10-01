@@ -45,7 +45,7 @@ const Slider = () => {
                 <div className="mt-4">
                   <a
                     className="px-btn px-btn-white"
-                    href="img/rob-regan-resume.pdf"
+                    href="img/Robert-Regan-Resume.pdf"
                     download
                   >
                     {sliderContent.btnText}
