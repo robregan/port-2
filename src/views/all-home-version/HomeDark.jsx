@@ -35,7 +35,7 @@ const HomeTwo = () => {
             <h5 className="github">GitHub Repo's</h5>
             <div>
             <ul className="repos">
-            <li><a href="https://github.com/robregan/storytime" target="_blank">storybooks</a></li>
+            <li><a href="https://github.com/robregan/storytime" target="_blank">Storybooks App</a></li>
             <li><a href="https://github.com/robregan/face-analyza" target="_blank">Age Guesser</a></li>
             <li><a href="https://github.com/robregan/books-for-you" target="_blank">Campus Catalogs</a></li>
             <li><a href="https://github.com/robregan/emotion-check" target="_blank">Ai Emotion Analyzer</a></li>
