@@ -22,7 +22,7 @@ const Slider = () => {
         <div className="hb-top-fixed d-flex">
           <div className="hb-info">
            
-            <a href="mailto:robert_regan86@yahoo.com">
+            <a href="mailto:rsr@robregan.dev">
               {conctInfo.email}
             </a>
           </div>
