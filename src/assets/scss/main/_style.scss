@@ -84,9 +84,9 @@
   font-size: 20px;
   object-fit: contain;
   @media screen and (max-width: 767px) {
-   width: 70%;
-   margin: 0 auto;
+   width: 100%;
    flex-direction: column;
+   justify-content: flex-start;
   }
 }
 
