@@ -86,9 +86,10 @@
   @media screen and (max-width: 767px) {
    width: 70%;
    margin: 0 auto;
-    padding-right: 20px;
+   flex-direction: column;
   }
 }
+
 
 .repos li{
 padding-left: .8em;

@@ -16,7 +16,7 @@ const Contact = () => {
 
   return (
     <>
-      <form netlify-data="true" onSubmit={handleSubmit(onSubmit)}>
+      <form netlify netlify-data="true" onSubmit={handleSubmit(onSubmit)}>
         <div className="row">
           <div className="col-md-6">
             <div className="form-group mb-3">
