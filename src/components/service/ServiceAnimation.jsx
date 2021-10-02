@@ -58,6 +58,7 @@ export default function Service() {
           >
             <div className="feature-box-01">
               <div className="icon">
+
                 <i className={`icon ${val.icon}`}></i>
               </div>
               <div className="feature-content">
