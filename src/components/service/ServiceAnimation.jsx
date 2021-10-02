@@ -27,21 +27,21 @@ const ServiceContent = [
     title: "Web Accessibility",
     // descriptions: `Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
     // eiusmod tempor incididunt ut labore et dolore magna aliqua.`,
-    delayAnimation: "600",
+    delayAnimation: "",
   },
   {
     icon: "icon-mobile",
     title: "PostgreSQL",
     // descriptions: `Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
     // eiusmod tempor incididunt ut labore et dolore magna aliqua.`,
-    delayAnimation: "800",
+    delayAnimation: "200",
   },
   {
     icon: "icon-desktop",
     title: "MongoDB",
     // descriptions: `Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
     // eiusmod tempor incididunt ut labore et dolore magna aliqua.`,
-    delayAnimation: "1000",
+    delayAnimation: "400",
   },
 ];
 export default function Service() {
