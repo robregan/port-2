@@ -24,7 +24,7 @@ const ServiceContent = [
   },
   {
     icon: "icon-target",
-    title: "Web Accessibility",
+    title: "MongoDB",
     // descriptions: `Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
     // eiusmod tempor incididunt ut labore et dolore magna aliqua.`,
     delayAnimation: "",
@@ -38,7 +38,7 @@ const ServiceContent = [
   },
   {
     icon: "icon-desktop",
-    title: "MongoDB",
+    title: "Web Accessibility",
     // descriptions: `Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
     // eiusmod tempor incididunt ut labore et dolore magna aliqua.`,
     delayAnimation: "400",
