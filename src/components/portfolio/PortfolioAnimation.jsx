@@ -12,194 +12,186 @@ const breakpointColumnsObj = {
   500: 1,
 };
 
-const tabList = ["All", "Branding", "Photography", "Fashion", "Product"];
+
 const AllPortfolioContent = [
   {
-    img: "m-portfolio-1",
-    title: "Bottle Illustration",
-    subTitle: "Figma Shoot",
-    alterText: "Bottle Illustration",
-    delayAnimation: "",
+    img: "story",
+    title: "StoryBook App",
+    subTitle: "Users can post private and public stories to the dashboard",
+    
+    link: 'https://thawing-bayou-76342.herokuapp.com/',
   },
   {
-    img: "m-portfolio-2",
-    title: "E-Learning App",
-    subTitle: "Nuna ios App",
-    alterText: "Illustration",
-    delayAnimation: "100",
+    img: "gypsy",
+    title: "Age Guesser App",
+    subTitle: "With Azure's Cognitive Services, this app will guess your age!",
+    link: 'https://gypsy-queen.herokuapp.com/',
   },
   {
-    img: "m-portfolio-3",
-    title: "Visual Design",
-    subTitle: "Themeforest Marke",
-    alterText: "Business Mockup",
-    delayAnimation: "200",
+    img: "books",
+    title: "Campus Catalogs",
+    subTitle: "A Place to Buy and Sell Used Collge Textbooks",
+    link: "https://campus-catalogs.herokuapp.com/"
   },
   {
-    img: "m-portfolio-4",
-    title: "Business Card",
-    subTitle: "Graphicriver Market",
-    alterText: "E-Cosmetics",
-    delayAnimation: "0",
+    img: "face",
+    title: "Ai Emotion Analyzer",
+    subTitle: "Face Detection Ai App",
+    link: "https://emotion-check.herokuapp.com/",
   },
   {
-    img: "m-portfolio-5",
-    title: "Chatting Application",
-    subTitle: "Codecanyon Market",
-    alterText: "Bottle Illustration",
-    delayAnimation: "100",
+    img: "text",
+    title: "Text Sentiment Analyzer",
+   subTitle: "enter in text and this program will analyze it!",
+   link: "https://text-checka.herokuapp.com/",
   },
   {
-    img: "m-portfolio-6",
-    title: "Web Application",
-    subTitle: "Behance Shot",
-    alterText: "Web Application",
-    delayAnimation: "200",
+    img: "drum",
+    title: "JavaScript Drum Machine!",
+    subTitle: "Make some dope beats!",
+    link: "https://beat-machine-js.netlify.app/",
   },
   {
-    img: "m-portfolio-7",
-    title: "Business Card",
-    subTitle: "Graphicriver Market",
-    alterText: "Business Card",
-    delayAnimation: "0",
+    img: "reddit",
+    title: "Reddit for Devs",
+    subTitle: "post pics for the feed",
+    link: "https://reddit-for-devs.herokuapp.com/",
   },
   {
-    img: "m-portfolio-8",
-    title: "Chatting App Design",
-    subTitle: "Codecanyon Market",
-    alterText: "Chatting App Design",
-    delayAnimation: "100",
+    img: "object",
+    title: "Object Recognition App",
+    subTitle: "Upload an image and our AI will detect any objects",
+    link: "https://object-detecta.herokuapp.com/",
   },
   {
-    img: "m-portfolio-9",
-    title: "Web Motion",
-    subTitle: "Behance Shot",
-    alterText: "Web Motion",
-    delayAnimation: "200",
+    img: "translate",
+    title: "Voice Translation App",
+    subTitle: "Speak into the mic and this program will translate it to any language!",
+    link: "https://transl8or.herokuapp.com/",
   },
 ];
 
-const BrandingPortfolioContent = [
-  {
-    img: "m-portfolio-6",
-    title: "Web Application",
-    subTitle: "Behance Shot",
-    alterText: "Web Application",
-    delayAnimation: "",
-  },
-  {
-    img: "m-portfolio-3",
-    title: "Visual Design",
-    subTitle: "Themeforest Marke",
-    alterText: "Business Mockup",
-    delayAnimation: "100",
-  },
-  {
-    img: "m-portfolio-8",
-    title: "Chatting App Design",
-    subTitle: "Codecanyon Market",
-    alterText: "Chatting App Design",
-    delayAnimation: "200",
-  },
-  {
-    img: "m-portfolio-4",
-    title: "Business Card",
-    subTitle: "Graphicriver Market",
-    alterText: "E-Cosmetics",
-    delayAnimation: "300",
-  },
-];
-const PhotographyPortfolioContent = [
-  {
-    img: "m-portfolio-2",
-    title: "E-Learning App",
-    subTitle: "Nuna ios App",
-    alterText: "Illustration",
-    delayAnimation: "",
-  },
+// const BrandingPortfolioContent = [
+//   {
+//     img: "m-portfolio-6",
+//     title: "Web Application",
+//     subTitle: "Behance Shot",
+//     alterText: "Web Application",
+//     delayAnimation: "",
+//   },
+//   {
+//     img: "m-portfolio-3",
+//     title: "Visual Design",
+//     subTitle: "Themeforest Marke",
+//     alterText: "Business Mockup",
+//     delayAnimation: "100",
+//   },
+//   {
+//     img: "m-portfolio-8",
+//     title: "Chatting App Design",
+//     subTitle: "Codecanyon Market",
+//     alterText: "Chatting App Design",
+//     delayAnimation: "200",
+//   },
+//   {
+//     img: "m-portfolio-4",
+//     title: "Business Card",
+//     subTitle: "Graphicriver Market",
+//     alterText: "E-Cosmetics",
+//     delayAnimation: "300",
+//   },
+// ];
+// const PhotographyPortfolioContent = [
+//   {
+//     img: "m-portfolio-2",
+//     title: "E-Learning App",
+//     subTitle: "Nuna ios App",
+//     alterText: "Illustration",
+//     delayAnimation: "",
+//   },
 
-  {
-    img: "m-portfolio-5",
-    title: "Chatting Application",
-    subTitle: "Codecanyon Market",
-    alterText: "Bottle Illustration",
-    delayAnimation: "100",
-  },
-  {
-    img: "m-portfolio-6",
-    title: "Web Application",
-    subTitle: "Behance Shot",
-    alterText: "Web Application",
-    delayAnimation: "200",
-  },
-];
+//   {
+//     img: "m-portfolio-5",
+//     title: "Chatting Application",
+//     subTitle: "Codecanyon Market",
+//     alterText: "Bottle Illustration",
+//     delayAnimation: "100",
+//   },
+//   {
+//     img: "m-portfolio-6",
+//     title: "Web Application",
+//     subTitle: "Behance Shot",
+//     alterText: "Web Application",
+//     delayAnimation: "200",
+//   },
+// ];
 
-const FashionPortfolioContent = [
-  {
-    img: "m-portfolio-1",
-    title: "Bottle Illustration",
-    subTitle: "Figma Shoot",
-    alterText: "Bottle Illustration",
-    delayAnimation: "",
-  },
-  {
-    img: "m-portfolio-7",
-    title: "Business Card",
-    subTitle: "Graphicriver Market",
-    alterText: "Business Card",
-    delayAnimation: "100",
-  },
-  {
-    img: "m-portfolio-9",
-    title: "Web Motion",
-    subTitle: "Behance Shot",
-    alterText: "Web Motion",
-    delayAnimation: "200",
-  },
-];
+// const FashionPortfolioContent = [
+//   {
+//     img: "m-portfolio-1",
+//     title: "Bottle Illustration",
+//     subTitle: "Figma Shoot",
+//     alterText: "Bottle Illustration",
+//     delayAnimation: "",
+//   },
+//   {
+//     img: "m-portfolio-7",
+//     title: "Business Card",
+//     subTitle: "Graphicriver Market",
+//     alterText: "Business Card",
+//     delayAnimation: "100",
+//   },
+//   {
+//     img: "m-portfolio-9",
+//     title: "Web Motion",
+//     subTitle: "Behance Shot",
+//     alterText: "Web Motion",
+//     delayAnimation: "200",
+//   },
+// ];
 
-const ProductPortfolioContent = [
-  {
-    img: "m-portfolio-2",
-    title: "E-Learning App",
-    subTitle: "Nuna ios App",
-    alterText: "Illustration",
-    delayAnimation: "",
-  },
-  {
-    img: "m-portfolio-3",
-    title: "Visual Design",
-    subTitle: "Themeforest Marke",
-    alterText: "Business Mockup",
-    delayAnimation: "100",
-  },
+// const ProductPortfolioContent = [
+//   {
+//     img: "m-portfolio-2",
+//     title: "E-Learning App",
+//     subTitle: "Nuna ios App",
+//     alterText: "Illustration",
+//     delayAnimation: "",
+//   },
+//   {
+//     img: "m-portfolio-3",
+//     title: "Visual Design",
+//     subTitle: "Themeforest Marke",
+//     alterText: "Business Mockup",
+//     delayAnimation: "100",
+//   },
 
-  {
-    img: "m-portfolio-5",
-    title: "Chatting Application",
-    subTitle: "Codecanyon Market",
-    alterText: "Bottle Illustration",
-    delayAnimation: "200",
-  },
-  {
-    img: "m-portfolio-6",
-    title: "Web Application",
-    subTitle: "Behance Shot",
-    alterText: "Web Application",
-    delayAnimation: "300",
-  },
-];
+//   {
+//     img: "m-portfolio-5",
+//     title: "Chatting Application",
+//     subTitle: "Codecanyon Market",
+//     alterText: "Bottle Illustration",
+//     delayAnimation: "200",
+//   },
+//   {
+//     img: "m-portfolio-6",
+//     title: "Web Application",
+//     subTitle: "Behance Shot",
+//     alterText: "Web Application",
+//     delayAnimation: "300",
+//   },
+// ];
 
 const PortfolioAnimation = () => {
   return (
  
       <div className="portfolio-filter-01">
         <Tabs>
-          <TabList className="filter d-flex flex-wrap justify-content-start">
+          {/* <TabList className="filter d-flex flex-wrap justify-content-start">
             {tabList.map((val, i) => (
               <Tab key={i}>{val}</Tab>
             ))}
-          </TabList>
+          </TabList> */}
           {/* End tablist */}
 
          
@@ -222,12 +214,14 @@ const PortfolioAnimation = () => {
                         <div className="portfolio-info">
                           <h5>{val.title}</h5>
                           <span>{val.subTitle}</span>
+                          <a href={val.link}></a>
                         </div>
                         {/* End .portfolio-info */}
                         <a
-                          href={`img/portfolio/${val.img}.jpg`}
+                          href={`${val.link}`} target='_blank'
                           className="gallery-link"
                         >
+                          
                           <img
                             src={`img/portfolio/${val.img}.jpg`}
                             alt={val.alterText}
@@ -247,7 +241,7 @@ const PortfolioAnimation = () => {
               {/* End list wrapper */}
             </TabPanel>
 
-            <TabPanel>
+            {/* <TabPanel>
               <div className="portfolio-content">
                 <Masonry
                   breakpointCols={breakpointColumnsObj}
@@ -266,9 +260,9 @@ const PortfolioAnimation = () => {
                         <div className="portfolio-info">
                           <h5>{val.title}</h5>
                           <span>{val.subTitle}</span>
-                        </div>
+                        </div> */}
                         {/* End .portfolio-info */}
-                        <a
+                        {/* <a
                           href={`img/portfolio/${val.img}.jpg`}
                           className="gallery-link"
                         >
@@ -276,22 +270,22 @@ const PortfolioAnimation = () => {
                             src={`img/portfolio/${val.img}.jpg`}
                             alt={val.alterText}
                           />
-                        </a>
+                        </a> */}
                         {/* End gallery link */}
 
-                        <div className="portfolio-icon">
+                        {/* <div className="portfolio-icon">
                           <FiPlus />
-                        </div>
+                        </div> */}
                         {/* End .portfolio-icon */}
-                      </div>
+                      {/* </div>
                     </div>
                   ))}
-                </Masonry>
+                </Masonry> */}
                 {/* grid item  */}
-              </div>
+              {/* </div> */}
 
               {/* End list wrapper */}
-            </TabPanel>
+            {/* </TabPanel>
 
             <TabPanel>
               <div className="portfolio-content">
@@ -312,9 +306,9 @@ const PortfolioAnimation = () => {
                         <div className="portfolio-info">
                           <h5>{val.title}</h5>
                           <span>{val.subTitle}</span>
-                        </div>
+                        </div> */}
                         {/* End .portfolio-info */}
-                        <a
+                        {/* <a
                           href={`img/portfolio/${val.img}.jpg`}
                           className="gallery-link"
                         >
@@ -322,20 +316,20 @@ const PortfolioAnimation = () => {
                             src={`img/portfolio/${val.img}.jpg`}
                             alt={val.alterText}
                           />
-                        </a>
+                        </a> */}
                         {/* End gallery link */}
 
-                        <div className="portfolio-icon">
+                        {/* <div className="portfolio-icon">
                           <FiPlus />
-                        </div>
+                        </div> */}
                         {/* End .portfolio-icon */}
-                      </div>
+                      {/* </div>
                     </div>
                   ))}
                 </Masonry>
-              </div>
+              </div> */}
               {/* End list wrapper */}
-            </TabPanel>
+            {/* </TabPanel>
 
             <TabPanel>
               <div className="portfolio-content">
@@ -356,9 +350,9 @@ const PortfolioAnimation = () => {
                         <div className="portfolio-info">
                           <h5>{val.title}</h5>
                           <span>{val.subTitle}</span>
-                        </div>
+                        </div> */}
                         {/* End .portfolio-info */}
-                        <a
+                        {/* <a
                           href={`img/portfolio/${val.img}.jpg`}
                           className="gallery-link"
                         >
@@ -366,20 +360,20 @@ const PortfolioAnimation = () => {
                             src={`img/portfolio/${val.img}.jpg`}
                             alt={val.alterText}
                           />
-                        </a>
+                        </a> */}
                         {/* End gallery link */}
 
-                        <div className="portfolio-icon">
+                        {/* <div className="portfolio-icon">
                           <FiPlus />
-                        </div>
+                        </div> */}
                         {/* End .portfolio-icon */}
-                      </div>
+                      {/* </div>
                     </div>
                   ))}
                 </Masonry>
-              </div>
+              </div> */}
               {/* End list wrapper */}
-            </TabPanel>
+            {/* </TabPanel>
 
             <TabPanel>
               <div className="portfolio-content ">
@@ -400,9 +394,9 @@ const PortfolioAnimation = () => {
                         <div className="portfolio-info">
                           <h5>{val.title}</h5>
                           <span>{val.subTitle}</span>
-                        </div>
+                        </div> */}
                         {/* End .portfolio-info */}
-                        <a
+                        {/* <a
                           href={`img/portfolio/${val.img}.jpg`}
                           className="gallery-link"
                         >
@@ -410,20 +404,20 @@ const PortfolioAnimation = () => {
                             src={`img/portfolio/${val.img}.jpg`}
                             alt={val.alterText}
                           />
-                        </a>
+                        </a> */}
                         {/* End gallery link */}
-
+{/* 
                         <div className="portfolio-icon">
                           <FiPlus />
-                        </div>
+                        </div> */}
                         {/* End .portfolio-icon */}
-                      </div>
+                      {/* </div>
                     </div>
                   ))}
                 </Masonry>
-              </div>
+              </div> */}
               {/* End list wrapper */}
-            </TabPanel>
+            {/* </TabPanel> */}
      
           {/* End tabpanel */}
         </Tabs>

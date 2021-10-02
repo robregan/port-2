@@ -13,7 +13,7 @@ import useDocumentTitle from "../../components/useDocumentTitle";
 
 const HomeOne = () => {
   useDocumentTitle(
-    "Nairo || Theme Dark Animation React Personal Portfolio Template"
+    "Robert Regan's Portfolio"
   );
   return (
     <div className="main-left theme-dark">
@@ -26,27 +26,43 @@ const HomeOne = () => {
       <About />
       {/* End About Section */}
 
-      <Resume />
+    
       {/* End Resume Section */}
 
       <section id="work" className="section theme-light dark-bg">
         <div className="container">
           <div className="title">
-            <h3>My Portfolio.</h3>
+               
+          <h3>Some Recent Projects.</h3>
+            <h5 className="github">GitHub Repo's</h5>
+            <div>
+            <ul className="repos">
+            <li><a href="https://github.com/robregan/storytime" target="_blank">Storybooks App</a></li>
+            <li><a href="https://github.com/robregan/face-analyza" target="_blank">Age Guesser</a></li>
+            <li><a href="https://github.com/robregan/books-for-you" target="_blank">Campus Catalogs</a></li>
+            <li><a href="https://github.com/robregan/emotion-check" target="_blank">Ai Emotion Analyzer</a></li>
+            <li><a href="https://github.com/robregan/text-analyzer" target="_blank">Text Sentiment Analysis</a></li>
+            <li><a href="https://github.com/robregan/drum-machine/" target="_blank">JavaScript Drum Kit</a></li>
+            <li><a href="https://github.com/robregan/reddit" target="_blank">Reddit Clone</a></li>
+            <li><a href="https://github.com/robregan/object-finder" target="_blank">Object Recognition</a></li>
+            <li><a href="https://github.com/robregan/translator" target="_blank">Voice Translator</a></li>
+            </ul>
+            </div>
           </div>
+          <h5 className="github">Live Versions</h5>
           <Portfolio />
         </div>
       </section>
       {/* End Portfolio Section */}
 
-      <section id="blog" className="section">
+      {/* <section id="blog" className="section">
         <div className="container">
           <div className="title">
             <h3>Latest Blog.</h3>
           </div>
           <Blog />
         </div>
-      </section>
+      </section> */}
       {/* End Portfolio Section */}
 
       <section id="contactus" className="section theme-light dark-bg">
@@ -68,7 +84,7 @@ const HomeOne = () => {
               data-aos-delay="200"
             >
               <div className="contact-form">
-                <h4>Say Something</h4>
+                <h4>Get in touch!</h4>
                 <Contact />
               </div>
             </div>

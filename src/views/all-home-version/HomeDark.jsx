@@ -1,10 +1,8 @@
 import React from "react";
 import Header from "../../components/header/Header";
-
 import About from "../../components/about/About";
 import Slider from "../../components/slider/Slider";
 import Portfolio from "../../components/portfolio/Portfolio";
-
 import Contact from "../../components/contact/Contact";
 import ContactInfo from "../../components/contact/ContactInfo";
 import Map from "../../components/contact/Map";

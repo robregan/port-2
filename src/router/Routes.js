@@ -34,7 +34,7 @@ const Routes = () => {
             path="/home-light-professional-2"
             component={HomeLightProfessional2}
           /> */}
-          <Route path="/" component={HomeDark} />
+          <Route path="/" component={HomeDarkAnimation} />
           <Route path="/home-dark-animation" component={HomeDarkAnimation} />
           <Route component={NotFound} />
         </Switch>

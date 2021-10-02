@@ -3,24 +3,45 @@ import React from "react";
 const ServiceContent = [
   {
     icon: "icon-mobile",
-    title: "Web Design",
-    descriptions: `Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-    eiusmod tempor incididunt ut labore et dolore magna aliqua.`,
+    title: "JavaScript",
+    // descriptions: `Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+    // eiusmod tempor incididunt ut labore et dolore magna aliqua.`,
     delayAnimation: "",
   },
   {
     icon: "icon-desktop",
-    title: "Web Development",
-    descriptions: `Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-    eiusmod tempor incididunt ut labore et dolore magna aliqua.`,
+    title: "React.js",
+    // descriptions: `Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+    // eiusmod tempor incididunt ut labore et dolore magna aliqua.`,
     delayAnimation: "200",
   },
   {
     icon: "icon-target",
-    title: "Seo Marketing",
-    descriptions: `Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-    eiusmod tempor incididunt ut labore et dolore magna aliqua.`,
+    title: "Node.js",
+    // descriptions: `Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+    // eiusmod tempor incididunt ut labore et dolore magna aliqua.`,
     delayAnimation: "400",
+  },
+  {
+    icon: "icon-target",
+    title: "Web Accessibility",
+    // descriptions: `Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+    // eiusmod tempor incididunt ut labore et dolore magna aliqua.`,
+    delayAnimation: "600",
+  },
+  {
+    icon: "icon-mobile",
+    title: "PostgreSQL",
+    // descriptions: `Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+    // eiusmod tempor incididunt ut labore et dolore magna aliqua.`,
+    delayAnimation: "800",
+  },
+  {
+    icon: "icon-desktop",
+    title: "MongoDB",
+    // descriptions: `Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+    // eiusmod tempor incididunt ut labore et dolore magna aliqua.`,
+    delayAnimation: "1000",
   },
 ];
 export default function Service() {

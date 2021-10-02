@@ -27,8 +27,8 @@ const About = () => {
                 </div>
                 {/* End img */}
                 <div className="info">
-                  <p>Ux/Ui Designer</p>
-                  <h3>Nairobi Gadot</h3>
+                <p>JavaScript Guru</p>
+                  <h3>Rob Regan</h3>
                 </div>
                 {/* End info */}
               </div>
@@ -48,16 +48,10 @@ const About = () => {
                 </div>
                 <div className="about-text">
                   <p>
-                    I'm a Freelancer Front-end Developer with over 3 years of
-                    experience. I'm from San Francisco. I code and create web
-                    elements for amazing people around the world. I like work
-                    with new people. New people new Experiences.
+                  I am a software engineer based out of New Jersey, specializing in fullstack JavaScript. If I am not coding a project or learning new material, I am most likely practicing yoga, snowboarding in the Rockies, or just relaxing with my wife and <a href="https://imgur.com/gallery/WlYJeH4" target="_blank">dog.</a> 
                   </p>
                   <p>
-                    I'm a Freelancer Front-end Developer with over 3 years of
-                    experience. I'm from San Francisco. I code and create web
-                    elements for amazing people around the world. I like work
-                    with new people. New people new Experiences.
+                  Since High School, I have always had an interest in tinkering with my devices, from installing Game Boy Advanced emulators on my TI89 graphing calculator, to jailbreaking my iPhone for a <strong><em>much</em></strong> better user experience. I have really been enjoying building wonderful web apps that provide value to my community.
                   </p>
                 </div>
                 <div className="info-list">
@@ -66,39 +60,24 @@ const About = () => {
                       <ul>
                         <li>
                           <label>Name: </label>
-                          <span>Nairobi Gadot</span>
+                          <span>Robert Regan</span>
                         </li>
                         <li>
                           <label>Birthday: </label>
-                          <span>4th April 1994</span>
+                          <span>December 2nd</span>
                         </li>
-                        <li>
-                          <label>Age: </label>
-                          <span>26 years</span>
-                        </li>
-                        <li>
-                          <label>Address: </label>
-                          <span>San Francisco</span>
-                        </li>
+                       
                       </ul>
                     </div>
                     <div className="col-sm-6">
                       <ul>
                         <li>
-                          <label>Phone: </label>
-                          <span>(+38) 469 2344 2364</span>
+                        <label>Address: </label>
+                          <span>Pt. Pleasant, NJ</span>
                         </li>
                         <li>
                           <label>Email: </label>
-                          <span>info@domainname.com</span>
-                        </li>
-                        <li>
-                          <label>Skype: </label>
-                          <span>nairob.40</span>
-                        </li>
-                        <li>
-                          <label>Freelance: </label>
-                          <span>Available</span>
+                          <span>rsr@robregan.dev</span>
                         </li>
                       </ul>
                     </div>
@@ -122,7 +101,7 @@ const About = () => {
 
           {/* End separated */}
           <div className="title">
-            <h3>What I do?</h3>
+            <h3>Skills</h3>
           </div>
 
           <Services />
@@ -130,39 +109,39 @@ const About = () => {
           {/* End .row */}
 
           {/* separated */}
-          <div
+          {/* <div
             className="separated"
             style={{
               backgroundImage: `url(${
                 process.env.PUBLIC_URL + "img/border-dark.png"
               })`,
             }}
-          ></div>
+          ></div> */}
           {/* End separated */}
 
-          <div className="title">
+          {/* <div className="title">
             <h3>Awards.</h3>
           </div>
 
-          <Awards />
+          <Awards /> */}
           {/* End Awards */}
 
           {/* separated */}
-          <div
+          {/* <div
             className="separated"
             style={{
               backgroundImage: `url(${
                 process.env.PUBLIC_URL + "img/border-dark.png"
               })`,
             }}
-          ></div>
+          ></div> */}
           {/* End separated */}
-
+{/* 
           <div className="title">
             <h3>Testimonials.</h3>
           </div>
 
-          <Testimonials />
+          <Testimonials /> */}
           {/* End Testimonaial */}
         </div>
       </section>

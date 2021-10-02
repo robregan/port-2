@@ -2,17 +2,17 @@ import React from "react";
 import TextLoop from "react-text-loop";
 
 const conctInfo = {
-  phone: "+04 6545-9535-6515",
-  email: " nairobi-designer@domain.com",
+ 
+  email: "rsr@robregan.dev",
 };
 
 const sliderContent = {
-  name: "Nairobi Gadot",
+  name: "Robert Regan",
   designation: "Full-stack Developer",
   description: `I design and develop services for customers of all sizes,
   specializing in creating stylish, modern websites, web
   services and online stores.`,
-  btnText: " Donwload CV",
+  btnText: " My Resume",
 };
 
 const Slider = () => {
@@ -22,12 +22,12 @@ const Slider = () => {
       <section id="home" className="home-banner">
         <div className="hb-top-fixed d-flex">
           <div className="hb-info">
-            <a href="tel:+04 6545-9535-6515">{conctInfo.phone}</a>
-            <a href="mailto:mail%20to:ibthemes21@gmail.com,com">
+           
+            <a href="mailto:rsr@robregan.dev">
               {conctInfo.email}
             </a>
           </div>
-          <div className="hb-lang">
+          {/* <div className="hb-lang">
             <ul className="nav">
               <li className="active">
                 <a href="#">EN</a>
@@ -36,7 +36,7 @@ const Slider = () => {
                 <a href="#">FR</a>
               </li>
             </ul>
-          </div>
+          </div> */}
         </div>
         {/* End hp-top-fixed */}
 
@@ -62,8 +62,8 @@ const Slider = () => {
                 >
                   <TextLoop>
                     <p className="loop-text lead">Full-stack Developer</p>
-                    <p className="loop-text lead"> UI/UX Designer</p>
-                    <p className="loop-text lead"> App Developer</p>
+                    <p className="loop-text lead"> Avid Snowboarder</p>
+                    <p className="loop-text lead"> Husband and Yogi</p>
                   </TextLoop>
                 </div>
 
@@ -83,8 +83,8 @@ const Slider = () => {
                 >
                   <a
                     className="px-btn px-btn-white"
-                    href="img/resume.png"
-                    download
+                    href="https://drive.google.com/file/d/1Hl27UToMIMBu-C3X2fK5YAprzxvaeQ3p/view?usp=sharing"
+                    target="_blank"
                   >
                     {sliderContent.btnText}
                   </a>
@@ -98,7 +98,7 @@ const Slider = () => {
           className="hb-me"
           style={{
             backgroundImage: `url(${
-              process.env.PUBLIC_URL + "img/slider/home-banner.png"
+              process.env.PUBLIC_URL + "/img/slider/colorado.jpg"
             })`,
           }}
         ></div>
