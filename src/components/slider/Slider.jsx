@@ -11,7 +11,7 @@ const sliderContent = {
   description: `I design and develop services for customers of all sizes,
   specializing in creating stylish, modern websites, web
   services and online stores.`,
-  btnText: " Download CV",
+  btnText: "My Resume",
 };
 
 const Slider = () => {
@@ -45,8 +45,8 @@ const Slider = () => {
                 <div className="mt-4">
                   <a
                     className="px-btn px-btn-white"
-                    href="img/Robert-Regan-Resume.pdf"
-                    download
+                    href="https://drive.google.com/file/d/1Hl27UToMIMBu-C3X2fK5YAprzxvaeQ3p/view?usp=sharing"
+                    target="_blank"
                   >
                     {sliderContent.btnText}
                   </a>
