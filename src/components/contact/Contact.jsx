@@ -11,7 +11,7 @@ const Contact = () => {
 
   const onSubmit = (data, e) => {
     e.target.reset();
-    alert("Message submited: " + JSON.stringify(data));
+    console.log("Message submited: " + JSON.stringify(data));
   };
 
   return (
