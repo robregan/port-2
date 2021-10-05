@@ -11,12 +11,12 @@ const Contact = () => {
 
   const onSubmit = (data, e) => {
     e.target.reset();
-    console.log("Message submited: " + JSON.stringify(data));
+    alert("Message submited: " + JSON.stringify(data));
   };
 
   return (
     <>
-      <form method="POST" netlify netlify-data="true" onSubmit={handleSubmit(onSubmit)}>
+      <form netlify netlify-data="true" onSubmit={handleSubmit(onSubmit)}>
         <div className="row">
           <div className="col-md-6">
             <div className="form-group mb-3">
