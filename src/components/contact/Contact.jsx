@@ -11,16 +11,17 @@ const Contact = () => {
 
   const onSubmit = (data, e) => {
     e.target.reset();
-    console.log("Message submited: " + JSON.stringify(data));
+    alert("Message submited: " + JSON.stringify(data));
   };
 
   return (
     <>
-      <form name="contact" netlify netlify-data="true" onSubmit={handleSubmit(onSubmit)}>
+      <form name="contact" netlify onSubmit={handleSubmit(onSubmit)}>
         <div className="row">
           <div className="col-md-6">
             <div className="form-group mb-3">
               <input
+                name="contact"
                 type="text"
                 className="form-control theme-light"
                 placeholder="Full name"
@@ -36,6 +37,7 @@ const Contact = () => {
           <div className="col-md-6">
             <div className="form-group mb-3">
               <input
+                name="contact"
                 type="email"
                 className="form-control theme-light"
                 placeholder="Email address"
@@ -62,6 +64,7 @@ const Contact = () => {
             <div className="form-group mb-3">
               <input
                 type="text"
+                name="contact"
                 className="form-control theme-light"
                 placeholder="Subject"
                 {...register("subject", { required: true })}
@@ -77,6 +80,7 @@ const Contact = () => {
             <div className="form-group mb-3">
               <textarea
                 rows="4"
+                name="contact"
                 className="form-control theme-light"
                 placeholder="Type comment"
                 {...register("comment", { required: true })}
@@ -90,7 +94,7 @@ const Contact = () => {
 
           <div className="col-12">
             <div className="btn-bar">
-              <button className="px-btn px-btn-white">Send Message</button>
+              <button className="px-btn px-btn-white" type="submit" name="contact">Send Message</button>
             </div>
           </div>
           {/* End .col-12 */}
