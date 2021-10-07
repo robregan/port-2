@@ -2,14 +2,13 @@ import React from "react";
 import Header from "../../components/header/Header";
 import Slider from "../../components/slider/SliderAnimation";
 import About from "../../components/about/AboutAnimation";
-import Resume from "../../components/resume/ResumeAnimation";
 import Portfolio from "../../components/portfolio/PortfolioAnimation";
-import Blog from "../../components/blog/BlogAnimation";
 import Contact from "../../components/contact/Contact";
 import ContactInfo from "../../components/contact/ContactInfo";
 import Map from "../../components/contact/Map";
 import Footer from "../../components/footer/FooterAnimation";
 import useDocumentTitle from "../../components/useDocumentTitle";
+
 
 const HomeOne = () => {
   useDocumentTitle(
