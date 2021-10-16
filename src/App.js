@@ -5,12 +5,14 @@ import AnimatedCursor from "react-animated-cursor";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
+
 const App = () => {
   useEffect(() => {
     AOS.init();
   }, []);
   return (
     <>
+  
       <AnimatedCursor
         innerSize={8}
         outerSize={44}
@@ -21,6 +23,7 @@ const App = () => {
       />
       <ScrollToTop />
       <Routes />
+     
     </>
   );
 };

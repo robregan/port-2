@@ -2,42 +2,42 @@ import React from "react";
 
 const ServiceContent = [
   {
-    icon: "icon-mobile",
+    icon: "icon-browser",
     title: "JavaScript",
     // descriptions: `Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
     // eiusmod tempor incididunt ut labore et dolore magna aliqua.`,
     delayAnimation: "",
   },
   {
-    icon: "icon-desktop",
+    icon: "icon-genius",
     title: "React.js",
     // descriptions: `Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
     // eiusmod tempor incididunt ut labore et dolore magna aliqua.`,
     delayAnimation: "200",
   },
   {
-    icon: "icon-target",
+    icon: "icon-adjustments",
     title: "Node.js",
     // descriptions: `Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
     // eiusmod tempor incididunt ut labore et dolore magna aliqua.`,
     delayAnimation: "400",
   },
   {
-    icon: "icon-target",
+    icon: "icon-documents",
     title: "MongoDB",
     // descriptions: `Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
     // eiusmod tempor incididunt ut labore et dolore magna aliqua.`,
     delayAnimation: "",
   },
   {
-    icon: "icon-mobile",
+    icon: "icon-newspaper",
     title: "PostgreSQL",
     // descriptions: `Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
     // eiusmod tempor incididunt ut labore et dolore magna aliqua.`,
     delayAnimation: "200",
   },
   {
-    icon: "icon-desktop",
+    icon: "icon-global",
     title: "Web Accessibility",
     // descriptions: `Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
     // eiusmod tempor incididunt ut labore et dolore magna aliqua.`,
