@@ -1,5 +1,5 @@
 import React from "react";
-import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
+import {Tabs, TabPanel } from "react-tabs";
 
 
 import { FiPlus } from "react-icons/fi";
@@ -15,11 +15,11 @@ const breakpointColumnsObj = {
 
 const AllPortfolioContent = [
   {
-    img: "story",
-    title: "StoryBook App",
-    subTitle: "Users can post private and public stories to the dashboard",
+    img: "leads1",
+    title: "Leads Tracker",
+    subTitle: "Extension for Chrome to easily save your hot leads!",
     
-    link: 'https://thawing-bayou-76342.herokuapp.com/',
+    link: 'https://github.com/robregan/chrome-extension',
   },
   {
     img: "gypsy",
@@ -54,7 +54,7 @@ const AllPortfolioContent = [
   {
     img: "reddit",
     title: "Reddit for Devs",
-    subTitle: "post pics for the feed",
+    subTitle: "post pics for the feed. 'WIP'",
     link: "https://reddit-for-devs.herokuapp.com/",
   },
   {

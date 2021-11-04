@@ -37,13 +37,13 @@ const HomeOne = () => {
             <h5 className="github">GitHub Repo's</h5>
             <div>
             <ul className="repos" id="bambi">
-            <li><a href="https://github.com/robregan/storytime" target="_blank">Storybooks App</a></li>
+            <li><a href="https://github.com/robregan/chrome-extension" target="_blank">Leads Tracker</a></li>
             <li><a href="https://github.com/robregan/face-analyza" target="_blank">Age Guesser</a></li>
             <li><a href="https://github.com/robregan/books-for-you" target="_blank">Campus Catalogs</a></li>
             <li><a href="https://github.com/robregan/emotion-check" target="_blank">Ai Emotion Analyzer</a></li>
             <li><a href="https://github.com/robregan/text-analyzer" target="_blank">Text Sentiment Analysis</a></li>
             <li><a href="https://github.com/robregan/drum-machine/" target="_blank">JavaScript Drum Kit</a></li>
-            <li><a href="https://github.com/robregan/reddit" target="_blank">Reddit Clone</a></li>
+            <li><a href="https://github.com/robregan/reddit" target="_blank">Reddit Clone - WIP</a></li>
             <li><a href="https://github.com/robregan/object-finder" target="_blank">Object Recognition</a></li>
             <li><a href="https://github.com/robregan/translator" target="_blank">Voice Translator</a></li>
             </ul>
