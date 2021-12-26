@@ -83,7 +83,7 @@ const Slider = () => {
                 >
                   <a
                     className="px-btn px-btn-white"
-                    href="https://drive.google.com/file/d/1Dfg06EQL-K6x_6hrYGkTmyUehokg0h4O/view?usp=sharing"
+                    href="https://drive.google.com/file/d/1NdQWL6QvBq-Ud2MTU4zX7Ebjf9BMkE59/view?usp=sharing"
                     target="_blank"
                   >
                     {sliderContent.btnText}
