@@ -46,10 +46,10 @@ const AllPortfolioContent = [
    link: "https://text-checka.herokuapp.com/",
   },
   {
-    img: "drum",
-    title: "JavaScript Drum Machine!",
-    subTitle: "Make some dope beats!",
-    link: "https://beat-machine-js.netlify.app/",
+    img: "ps4",
+    title: "PS4cord",
+    subTitle: "Chat app with users and rooms",
+    link: "https://ps4cord.herokuapp.com/",
   },
   {
     img: "reddit",
