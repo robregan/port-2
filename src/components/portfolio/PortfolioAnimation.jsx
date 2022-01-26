@@ -35,8 +35,8 @@ const AllPortfolioContent = [
   },
   {
     img: "face",
-    title: "Ai Emotion Analyzer",
-    subTitle: "Face Detection Ai App",
+    title: "AI Emotion Analyzer",
+    subTitle: "Face Detection AI App",
     link: "https://emotion-check.herokuapp.com/",
   },
   {
