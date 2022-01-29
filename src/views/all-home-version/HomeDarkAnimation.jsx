@@ -37,7 +37,7 @@ const HomeOne = () => {
             <h5 className="github">GitHub Repo's</h5>
             <div>
             <ul className="repos" id="bambi">
-            <li><a href="https://github.com/robregan/chrome-extension" target="_blank">Leads Tracker</a></li>
+            <li><a href="https://github.com/robregan/feedback-ui" target="_blank">Feedback UI App</a></li>
             <li><a href="https://github.com/robregan/face-analyza" target="_blank">Age Guesser</a></li>
             <li><a href="https://github.com/robregan/books-for-you" target="_blank">Campus Catalogs</a></li>
             <li><a href="https://github.com/robregan/emotion-check" target="_blank">AI Emotion Analyzer</a></li>

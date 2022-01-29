@@ -15,11 +15,11 @@ const breakpointColumnsObj = {
 
 const AllPortfolioContent = [
   {
-    img: "leads1",
-    title: "Leads Tracker",
-    subTitle: "Extension for Chrome to easily save your hot leads!",
+    img: "feedback",
+    title: "Feedback UI App",
+    subTitle: "Leave ratings and reviews for products and services!",
     
-    link: 'https://github.com/robregan/chrome-extension',
+    link: 'https://product-review-ui.netlify.app/',
   },
   {
     img: "gypsy",
