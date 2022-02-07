@@ -28,10 +28,10 @@ const AllPortfolioContent = [
     link: 'https://gypsy-queen.herokuapp.com/',
   },
   {
-    img: "books",
-    title: "Campus Catalogs",
-    subTitle: "A Place to Buy and Sell Used Collge Textbooks",
-    link: "https://campus-catalogs.herokuapp.com/"
+    img: "eth2",
+    title: "Web3 App",
+    subTitle: "Send ETH anywhere in the world! A gif will be forever attached to your transaction on the blockchain",
+    link: "https://cryptobobby.digital/"
   },
   {
     img: "face",
