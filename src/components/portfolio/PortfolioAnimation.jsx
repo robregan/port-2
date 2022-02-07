@@ -46,7 +46,7 @@ const AllPortfolioContent = [
    link: "https://text-checka.herokuapp.com/",
   },
   {
-    img: "chat",
+    img: "chat4",
     title: "Medical Pager",
     subTitle: "Chat app for your workspace with tons of features",
     link: "https://employee-chat.netlify.com/",
