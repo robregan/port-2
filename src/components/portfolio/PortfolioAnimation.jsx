@@ -52,10 +52,10 @@ const AllPortfolioContent = [
     link: "https://employee-chat.netlify.com/",
   },
   {
-    img: "reddit",
-    title: "Reddit for Devs",
-    subTitle: "post pics for the feed. 'WIP'",
-    link: "https://reddit-for-devs.herokuapp.com/",
+    img: "gh",
+    title: "GitHub User Search",
+    subTitle: "Lookup Github Profiles using their API!",
+    link: "https://github-finda.netlify.app/",
   },
   {
     img: "object",

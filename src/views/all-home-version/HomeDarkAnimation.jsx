@@ -43,7 +43,7 @@ const HomeOne = () => {
             <li><a href="https://github.com/robregan/emotion-check" target="_blank">AI Emotion Analyzer</a></li>
             <li><a href="https://github.com/robregan/text-analyzer" target="_blank">Text Sentiment Analysis</a></li>
             <li><a href="https://github.com/robregan/employee-chat" target="_blank">Medical Pager</a></li>
-            <li><a href="https://github.com/robregan/reddit" target="_blank">Reddit Clone - WIP</a></li>
+            <li><a href="https://github.com/robregan/github-user-search" target="_blank">GitHub User Search</a></li>
             <li><a href="https://github.com/robregan/object-finder" target="_blank">Object Recognition</a></li>
             <li><a href="https://github.com/robregan/translator" target="_blank">Voice Translator</a></li>
             </ul>
