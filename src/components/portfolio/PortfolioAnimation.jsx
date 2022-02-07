@@ -16,27 +16,27 @@ const breakpointColumnsObj = {
 const AllPortfolioContent = [
   {
     img: "feedback",
-    title: "Feedback UI App",
+    title: "Feedback UI React Component",
     subTitle: "Leave ratings and reviews for products and services!",
     
     link: 'https://product-review-ui.netlify.app/',
   },
   {
-    img: "gypsy",
-    title: "Age Guesser App",
-    subTitle: "With Azure's Cognitive Services, this app will guess your age!",
-    link: 'https://gypsy-queen.herokuapp.com/',
+    img: "gh",
+    title: "GitHub User Search",
+    subTitle: "React App to search user profiles by name or username",
+    link: "https://github-finda.netlify.app/",
   },
   {
     img: "eth2",
     title: "Web3 App",
-    subTitle: "Send ETH anywhere in the world! A gif will be forever attached to your transaction on the blockchain",
+    subTitle: "Send ETH anywhere in the world! A gif and a message will be forever attached to your transaction on the blockchain",
     link: "https://cryptobobby.digital/"
   },
   {
     img: "face",
     title: "AI Emotion Analyzer",
-    subTitle: "Face Detection AI App",
+    subTitle: "Users upload a photo and the program will analyze the emotions of detected faces.",
     link: "https://emotion-check.herokuapp.com/",
   },
   {
@@ -48,19 +48,20 @@ const AllPortfolioContent = [
   {
     img: "chat4",
     title: "Medical Pager",
-    subTitle: "Chat app for your workspace with tons of features",
+    subTitle: "Chat app for your workspace with tons of features.",
     link: "https://employee-chat.netlify.com/",
   },
+ 
   {
-    img: "gh",
-    title: "GitHub User Search",
-    subTitle: "Lookup Github Profiles using their API!",
-    link: "https://github-finda.netlify.app/",
+    img: "gypsy",
+    title: "Age Guesser App",
+    subTitle: "By using Azure's Computer Vision API, this app will guess your age!",
+    link: 'https://gypsy-queen.herokuapp.com/',
   },
   {
     img: "object",
     title: "Object Recognition App",
-    subTitle: "Upload an image and our AI will detect any objects",
+    subTitle: "Upload an image and our AI will detect any objects.",
     link: "https://object-detecta.herokuapp.com/",
   },
   {

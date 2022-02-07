@@ -38,12 +38,12 @@ const HomeOne = () => {
             <div>
             <ul className="repos" id="bambi">
             <li><a href="https://github.com/robregan/feedback-ui" target="_blank">Feedback UI App</a></li>
-            <li><a href="https://github.com/robregan/face-analyza" target="_blank">Age Guesser</a></li>
+            <li><a href="https://github.com/robregan/github-user-search" target="_blank">GitHub User Search</a></li>   
             <li><a href="https://github.com/robregan/web3app" target="_blank">Web3 App</a></li>
             <li><a href="https://github.com/robregan/emotion-check" target="_blank">AI Emotion Analyzer</a></li>
             <li><a href="https://github.com/robregan/text-analyzer" target="_blank">Text Sentiment Analysis</a></li>
             <li><a href="https://github.com/robregan/employee-chat" target="_blank">Medical Pager</a></li>
-            <li><a href="https://github.com/robregan/github-user-search" target="_blank">GitHub User Search</a></li>
+            <li><a href="https://github.com/robregan/face-analyza" target="_blank">Age Guesser</a></li>
             <li><a href="https://github.com/robregan/object-finder" target="_blank">Object Recognition</a></li>
             <li><a href="https://github.com/robregan/translator" target="_blank">Voice Translator</a></li>
             </ul>
