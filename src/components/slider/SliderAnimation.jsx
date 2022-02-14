@@ -83,7 +83,7 @@ const Slider = () => {
                 >
                   <a
                     className="px-btn px-btn-white"
-                    href="https://drive.google.com/file/d/1vOjvwxvEt5Put7nPn-16IAaPBNT2WEeH/view?usp=sharing"
+                    href="https://res.cloudinary.com/storage-b0x/image/upload/v1644872465/r-regan-resume_1_uhg5ru.pdf"
                     target="_blank"
                   >
                     {sliderContent.btnText}
