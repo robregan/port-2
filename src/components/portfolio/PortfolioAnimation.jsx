@@ -18,8 +18,7 @@ const AllPortfolioContent = [
     img: "feedback",
     title: "Feedback UI React Component",
     subTitle: "Leave ratings and reviews for products and services!",
-    
-    link: 'https://product-review-ui.netlify.app/',
+    link: "https://product-review-ui.netlify.app/",
   },
   {
     img: "gh",
@@ -34,16 +33,16 @@ const AllPortfolioContent = [
     link: "https://cryptobobby.digital/"
   },
   {
-    img: "face",
-    title: "AI Emotion Analyzer",
-    subTitle: "Users upload a photo and the program will analyze the emotions of detected faces.",
-    link: "https://emotion-check.herokuapp.com/",
-  },
-  {
     img: "chill3",
     title: "Chillow - The House Marketplace",
    subTitle: "Browse current listings or post your property for sale!",
    link: "https://chillow.netlify.app/",
+  },
+  {
+    img: "face9",
+    title: "AI Emotion Analyzer",
+    subTitle: "Users upload a photo and the program will analyze the emotions of detected faces.",
+    link: "https://emotion-check.herokuapp.com/",
   },
   {
     img: "chat4",
@@ -56,7 +55,7 @@ const AllPortfolioContent = [
     img: "gypsy",
     title: "Age Guesser App",
     subTitle: "By using Azure's Computer Vision API, this app will guess your age!",
-    link: 'https://gypsy-queen.herokuapp.com/',
+    link: "https://gypsy-queen.herokuapp.com/",
   },
   {
     img: "object",
@@ -215,7 +214,7 @@ const PortfolioAnimation = () => {
                         <div className="portfolio-info">
                           <h5>{val.title}</h5>
                           <span>{val.subTitle}</span>
-                          <a href={val.link}></a>
+                         
                         </div>
                         {/* End .portfolio-info */}
                         <a
