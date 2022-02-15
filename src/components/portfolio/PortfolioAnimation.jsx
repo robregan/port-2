@@ -64,10 +64,10 @@ const AllPortfolioContent = [
     link: "https://object-detecta.herokuapp.com/",
   },
   {
-    img: "translate",
-    title: "Voice Translation App",
-    subTitle: "Speak into the mic and this program will translate it to any language!",
-    link: "https://transl8or.herokuapp.com/",
+    img: "help",
+    title: "Support Desk App",
+    subTitle: "Users can login and create support tickets",
+    link: "https://customer-tickets.herokuapp.com/",
   },
 ];
 

@@ -45,7 +45,7 @@ const HomeOne = () => {
             <li><a href="https://github.com/robregan/employee-chat" target="_blank">Medical Pager</a></li>
             <li><a href="https://github.com/robregan/face-analyza" target="_blank">Age Guesser</a></li>
             <li><a href="https://github.com/robregan/object-finder" target="_blank">Object Recognition</a></li>
-            <li><a href="https://github.com/robregan/translator" target="_blank">Voice Translator</a></li>
+            <li><a href="https://github.com/robregan/support-desk" target="_blank">Support Desk</a></li>
             </ul>
             </div>
           </div>
