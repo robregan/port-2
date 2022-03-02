@@ -19,36 +19,42 @@ const AllPortfolioContent = [
     title: "Feedback UI React Component",
     subTitle: "Leave ratings and reviews for products and services!",
     link: "https://product-review-ui.netlify.app/",
+    code: "https://github.com/robregan/feedback-ui",
   },
   {
     img: "gh",
     title: "GitHub User Search",
     subTitle: "React App to search user profiles by name or username",
     link: "https://github-finda.netlify.app/",
+    code: 'https://github.com/robregan/github-user-search' 
   },
   {
     img: "eth2",
     title: "Web3 App",
     subTitle: "Send ETH anywhere in the world! A gif and a message will be forever attached to your transaction on the blockchain",
-    link: "https://cryptobobby.digital/"
+    link: "https://cryptobobby.digital/",
+    code: 'https://github.com/robregan/web3app' 
   },
   {
     img: "chill3",
     title: "Chillow - The House Marketplace",
    subTitle: "Browse current listings or post your property for sale!",
    link: "https://chillow.netlify.app/",
+   code: 'https://github.com/robregan/house-market-app' 
   },
   {
     img: "face9",
     title: "AI Emotion Analyzer",
     subTitle: "Users upload a photo and the program will analyze the emotions of detected faces.",
     link: "https://emotion-check.herokuapp.com/",
+    code: 'https://github.com/robregan/emotion-check' 
   },
   {
     img: "chat4",
     title: "Medical Pager",
     subTitle: "Chat app for your workspace with tons of features.",
     link: "https://employee-chat.netlify.com/",
+    code: 'https://github.com/robregan/employee-chat' 
   },
  
   {
@@ -56,145 +62,31 @@ const AllPortfolioContent = [
     title: "Age Guesser App",
     subTitle: "By using Azure's Computer Vision API, this app will guess your age!",
     link: "https://gypsy-queen.herokuapp.com/",
+    code: 'https://github.com/robregan/face-analyza' 
   },
   {
     img: "object",
     title: "Object Recognition App",
     subTitle: "Upload an image and our AI will detect any objects.",
     link: "https://object-detecta.herokuapp.com/",
+    code: 'https://github.com/robregan/object-finder' 
   },
   {
     img: "help",
     title: "Support Desk App",
     subTitle: "Users can login and create support tickets",
     link: "https://customer-tickets.herokuapp.com/",
+    code: 'https://github.com/robregan/support-desk' 
   },
 ];
 
-// const BrandingPortfolioContent = [
-//   {
-//     img: "m-portfolio-6",
-//     title: "Web Application",
-//     subTitle: "Behance Shot",
-//     alterText: "Web Application",
-//     delayAnimation: "",
-//   },
-//   {
-//     img: "m-portfolio-3",
-//     title: "Visual Design",
-//     subTitle: "Themeforest Marke",
-//     alterText: "Business Mockup",
-//     delayAnimation: "100",
-//   },
-//   {
-//     img: "m-portfolio-8",
-//     title: "Chatting App Design",
-//     subTitle: "Codecanyon Market",
-//     alterText: "Chatting App Design",
-//     delayAnimation: "200",
-//   },
-//   {
-//     img: "m-portfolio-4",
-//     title: "Business Card",
-//     subTitle: "Graphicriver Market",
-//     alterText: "E-Cosmetics",
-//     delayAnimation: "300",
-//   },
-// ];
-// const PhotographyPortfolioContent = [
-//   {
-//     img: "m-portfolio-2",
-//     title: "E-Learning App",
-//     subTitle: "Nuna ios App",
-//     alterText: "Illustration",
-//     delayAnimation: "",
-//   },
-
-//   {
-//     img: "m-portfolio-5",
-//     title: "Chatting Application",
-//     subTitle: "Codecanyon Market",
-//     alterText: "Bottle Illustration",
-//     delayAnimation: "100",
-//   },
-//   {
-//     img: "m-portfolio-6",
-//     title: "Web Application",
-//     subTitle: "Behance Shot",
-//     alterText: "Web Application",
-//     delayAnimation: "200",
-//   },
-// ];
-
-// const FashionPortfolioContent = [
-//   {
-//     img: "m-portfolio-1",
-//     title: "Bottle Illustration",
-//     subTitle: "Figma Shoot",
-//     alterText: "Bottle Illustration",
-//     delayAnimation: "",
-//   },
-//   {
-//     img: "m-portfolio-7",
-//     title: "Business Card",
-//     subTitle: "Graphicriver Market",
-//     alterText: "Business Card",
-//     delayAnimation: "100",
-//   },
-//   {
-//     img: "m-portfolio-9",
-//     title: "Web Motion",
-//     subTitle: "Behance Shot",
-//     alterText: "Web Motion",
-//     delayAnimation: "200",
-//   },
-// ];
-
-// const ProductPortfolioContent = [
-//   {
-//     img: "m-portfolio-2",
-//     title: "E-Learning App",
-//     subTitle: "Nuna ios App",
-//     alterText: "Illustration",
-//     delayAnimation: "",
-//   },
-//   {
-//     img: "m-portfolio-3",
-//     title: "Visual Design",
-//     subTitle: "Themeforest Marke",
-//     alterText: "Business Mockup",
-//     delayAnimation: "100",
-//   },
-
-//   {
-//     img: "m-portfolio-5",
-//     title: "Chatting Application",
-//     subTitle: "Codecanyon Market",
-//     alterText: "Bottle Illustration",
-//     delayAnimation: "200",
-//   },
-//   {
-//     img: "m-portfolio-6",
-//     title: "Web Application",
-//     subTitle: "Behance Shot",
-//     alterText: "Web Application",
-//     delayAnimation: "300",
-//   },
-// ];
 
 const PortfolioAnimation = () => {
   return (
  
       <div className="portfolio-filter-01">
         <Tabs>
-          {/* <TabList className="filter d-flex flex-wrap justify-content-start">
-            {tabList.map((val, i) => (
-              <Tab key={i}>{val}</Tab>
-            ))}
-          </TabList> */}
-          {/* End tablist */}
 
-         
             <TabPanel>
               <div className="portfolio-content ">
                 <Masonry
@@ -217,22 +109,27 @@ const PortfolioAnimation = () => {
                          
                         </div>
                         {/* End .portfolio-info */}
-                        <a
-                          href={`${val.link}`} target='_blank'
-                          className="gallery-link"
-                        >
+                        
                           
                           <img
                             src={`img/portfolio/${val.img}.jpg`}
                             alt={val.alterText}
                           />
-                        </a>
-                        {/* End gallery link */}
+                     
+                
+                      </div>
 
-                        <div className="portfolio-icon">
-                          <FiPlus />
-                        </div>
-                        {/* End .portfolio-icon */}
+                    <div className="siteCode">
+                      <h4><a
+                          href={`${val.link}`} target='_blank'
+                          className="gallery-link"
+                        >Live Site</a>
+                        
+                        </h4>
+                      <h4 className="code"> <a
+                          href={`${val.code}`} target='_blank'
+                          className="gallery-link"
+                        >Code</a></h4>
                       </div>
                     </div>
                   ))}
@@ -241,185 +138,7 @@ const PortfolioAnimation = () => {
               {/* End list wrapper */}
             </TabPanel>
 
-            {/* <TabPanel>
-              <div className="portfolio-content">
-                <Masonry
-                  breakpointCols={breakpointColumnsObj}
-                  className="my-masonry-grid"
-                  columnClassName="my-masonry-grid_column"
-                >
-                  {BrandingPortfolioContent.map((val, i) => (
-                    <div
-                      className="portfolio-box-01"
-                      key={i}
-                      data-aos="fade-right"
-                      data-aos-duration="1200"
-                      data-aos-delay={val.delayAnimation}
-                    >
-                      <div className="portfolio-img">
-                        <div className="portfolio-info">
-                          <h5>{val.title}</h5>
-                          <span>{val.subTitle}</span>
-                        </div> */}
-                        {/* End .portfolio-info */}
-                        {/* <a
-                          href={`img/portfolio/${val.img}.jpg`}
-                          className="gallery-link"
-                        >
-                          <img
-                            src={`img/portfolio/${val.img}.jpg`}
-                            alt={val.alterText}
-                          />
-                        </a> */}
-                        {/* End gallery link */}
-
-                        {/* <div className="portfolio-icon">
-                          <FiPlus />
-                        </div> */}
-                        {/* End .portfolio-icon */}
-                      {/* </div>
-                    </div>
-                  ))}
-                </Masonry> */}
-                {/* grid item  */}
-              {/* </div> */}
-
-              {/* End list wrapper */}
-            {/* </TabPanel>
-
-            <TabPanel>
-              <div className="portfolio-content">
-                <Masonry
-                  breakpointCols={breakpointColumnsObj}
-                  className="my-masonry-grid"
-                  columnClassName="my-masonry-grid_column"
-                >
-                  {PhotographyPortfolioContent.map((val, i) => (
-                    <div
-                      className="portfolio-box-01"
-                      key={i}
-                      data-aos="fade-right"
-                      data-aos-duration="1200"
-                      data-aos-delay={val.delayAnimation}
-                    >
-                      <div className="portfolio-img">
-                        <div className="portfolio-info">
-                          <h5>{val.title}</h5>
-                          <span>{val.subTitle}</span>
-                        </div> */}
-                        {/* End .portfolio-info */}
-                        {/* <a
-                          href={`img/portfolio/${val.img}.jpg`}
-                          className="gallery-link"
-                        >
-                          <img
-                            src={`img/portfolio/${val.img}.jpg`}
-                            alt={val.alterText}
-                          />
-                        </a> */}
-                        {/* End gallery link */}
-
-                        {/* <div className="portfolio-icon">
-                          <FiPlus />
-                        </div> */}
-                        {/* End .portfolio-icon */}
-                      {/* </div>
-                    </div>
-                  ))}
-                </Masonry>
-              </div> */}
-              {/* End list wrapper */}
-            {/* </TabPanel>
-
-            <TabPanel>
-              <div className="portfolio-content">
-                <Masonry
-                  breakpointCols={breakpointColumnsObj}
-                  className="my-masonry-grid"
-                  columnClassName="my-masonry-grid_column"
-                >
-                  {FashionPortfolioContent.map((val, i) => (
-                    <div
-                      className="portfolio-box-01"
-                      key={i}
-                      data-aos="fade-right"
-                      data-aos-duration="1200"
-                      data-aos-delay={val.delayAnimation}
-                    >
-                      <div className="portfolio-img">
-                        <div className="portfolio-info">
-                          <h5>{val.title}</h5>
-                          <span>{val.subTitle}</span>
-                        </div> */}
-                        {/* End .portfolio-info */}
-                        {/* <a
-                          href={`img/portfolio/${val.img}.jpg`}
-                          className="gallery-link"
-                        >
-                          <img
-                            src={`img/portfolio/${val.img}.jpg`}
-                            alt={val.alterText}
-                          />
-                        </a> */}
-                        {/* End gallery link */}
-
-                        {/* <div className="portfolio-icon">
-                          <FiPlus />
-                        </div> */}
-                        {/* End .portfolio-icon */}
-                      {/* </div>
-                    </div>
-                  ))}
-                </Masonry>
-              </div> */}
-              {/* End list wrapper */}
-            {/* </TabPanel>
-
-            <TabPanel>
-              <div className="portfolio-content ">
-                <Masonry
-                  breakpointCols={breakpointColumnsObj}
-                  className="my-masonry-grid"
-                  columnClassName="my-masonry-grid_column"
-                >
-                  {ProductPortfolioContent.map((val, i) => (
-                    <div
-                      className="portfolio-box-01"
-                      key={i}
-                      data-aos="fade-right"
-                      data-aos-duration="1200"
-                      data-aos-delay={val.delayAnimation}
-                    >
-                      <div className="portfolio-img">
-                        <div className="portfolio-info">
-                          <h5>{val.title}</h5>
-                          <span>{val.subTitle}</span>
-                        </div> */}
-                        {/* End .portfolio-info */}
-                        {/* <a
-                          href={`img/portfolio/${val.img}.jpg`}
-                          className="gallery-link"
-                        >
-                          <img
-                            src={`img/portfolio/${val.img}.jpg`}
-                            alt={val.alterText}
-                          />
-                        </a> */}
-                        {/* End gallery link */}
-{/* 
-                        <div className="portfolio-icon">
-                          <FiPlus />
-                        </div> */}
-                        {/* End .portfolio-icon */}
-                      {/* </div>
-                    </div>
-                  ))}
-                </Masonry>
-              </div> */}
-              {/* End list wrapper */}
-            {/* </TabPanel> */}
-     
-          {/* End tabpanel */}
+          
         </Tabs>
       </div>
  

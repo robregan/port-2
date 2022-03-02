@@ -32,38 +32,14 @@ const HomeOne = () => {
       <section id="work" className="section theme-light dark-bg">
         <div className="container">
           <div className="title">
-               
-          <h3>Some Recent Projects.</h3>
-            <h5 className="github">GitHub Repo's</h5>
-            <div>
-            <ul className="repos" id="bambi">
-            <li><a href="https://github.com/robregan/feedback-ui" target="_blank">Feedback UI App</a></li>
-            <li><a href="https://github.com/robregan/github-user-search" target="_blank">GitHub User Search</a></li>   
-            <li><a href="https://github.com/robregan/web3app" target="_blank">Web3 App</a></li>
-            <li><a href="https://github.com/robregan/house-market-app" target="_blank">House Marketplace</a></li>
-            <li><a href="https://github.com/robregan/emotion-check" target="_blank">AI Emotion Analyzer</a></li>
-            <li><a href="https://github.com/robregan/employee-chat" target="_blank">Medical Pager</a></li>
-            <li><a href="https://github.com/robregan/face-analyza" target="_blank">Age Guesser</a></li>
-            <li><a href="https://github.com/robregan/object-finder" target="_blank">Object Recognition</a></li>
-            <li><a href="https://github.com/robregan/support-desk" target="_blank">Support Desk</a></li>
-            </ul>
-            </div>
+            <h3>Recent Projects</h3>
+            <Portfolio />
           </div>
-          <h5 className="github">Live Versions</h5>
-          <Portfolio />
+         
+       
         </div>
       </section>
-      {/* End Portfolio Section */}
-
-      {/* <section id="blog" className="section">
-        <div className="container">
-          <div className="title">
-            <h3>Latest Blog.</h3>
-          </div>
-          <Blog />
-        </div>
-      </section> */}
-      {/* End Portfolio Section */}
+     
 
       <section id="contactus" className="section theme-light dark-bg">
         <div className="container">
