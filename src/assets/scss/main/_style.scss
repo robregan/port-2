@@ -801,17 +801,31 @@ p{
 .siteCode{
   display: flex;
   justify-content: space-around;
-  height: 2.2em;
+  height: 4.6em;
   background: rgb(14,14,23);
+  padding-top: 10px;
+  
   
 }
 .siteCode h4{
   font-family: 'Lora';
   font-style: italic;
   font-weight: 600;
- 
+  
 }
-
+.wutang{
+  font-family: 'Lora';
+  font-style: italic;
+  font-weight: 600;
+  font-size: 19px;
+  color: darkgray !important;
+}
+.descript{
+  display: flex;
+  align-items: center;
+  font-family: 'Lora';
+  font-size: 17px;
+}
 .contact-form {
   @include down-md {
     padding-bottom: 20px;
@@ -885,7 +899,15 @@ p{
     transform: translateY(-5px);
   }
 }
-
+.bambita{
+  color:teal!important;
+}
+.bella{
+  font-size: 1.7em;
+}
+.jackie{
+  color: $px-dark !important;
+}
 .slider-four {
   .loop-text {
     color: $px-dark !important;

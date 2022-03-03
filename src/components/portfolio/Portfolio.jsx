@@ -1,7 +1,7 @@
 import React from "react";
-import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
+import { Tabs, TabPanel } from "react-tabs";
 import SimpleReactLightbox from "simple-react-lightbox";
-import { SRLWrapper } from "simple-react-lightbox";
+
 import { FiPlus } from "react-icons/fi";
 import Masonry from "react-masonry-css";
 

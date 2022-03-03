@@ -16,7 +16,7 @@ const breakpointColumnsObj = {
 const AllPortfolioContent = [
   {
     img: "feedback",
-    title: "Feedback UI React Component",
+    title: "Feedback App",
     subTitle: "Leave ratings and reviews for products and services!",
     link: "https://product-review-ui.netlify.app/",
     code: "https://github.com/robregan/feedback-ui",
@@ -37,7 +37,7 @@ const AllPortfolioContent = [
   },
   {
     img: "chill3",
-    title: "Chillow - The House Marketplace",
+    title: "Chillow Marketplace",
    subTitle: "Browse current listings or post your property for sale!",
    link: "https://chillow.netlify.app/",
    code: 'https://github.com/robregan/house-market-app' 
@@ -59,21 +59,21 @@ const AllPortfolioContent = [
  
   {
     img: "gypsy",
-    title: "Age Guesser App",
+    title: "Age Guesser",
     subTitle: "By using Azure's Computer Vision API, this app will guess your age!",
     link: "https://gypsy-queen.herokuapp.com/",
     code: 'https://github.com/robregan/face-analyza' 
   },
   {
     img: "object",
-    title: "Object Recognition App",
+    title: "Object Detector",
     subTitle: "Upload an image and our AI will detect any objects.",
     link: "https://object-detecta.herokuapp.com/",
     code: 'https://github.com/robregan/object-finder' 
   },
   {
     img: "help",
-    title: "Support Desk App",
+    title: "Support Desk",
     subTitle: "Users can login and create support tickets",
     link: "https://customer-tickets.herokuapp.com/",
     code: 'https://github.com/robregan/support-desk' 
@@ -83,65 +83,69 @@ const AllPortfolioContent = [
 
 const PortfolioAnimation = () => {
   return (
- 
-      <div className="portfolio-filter-01">
-        <Tabs>
-
-            <TabPanel>
-              <div className="portfolio-content ">
-                <Masonry
-                  breakpointCols={breakpointColumnsObj}
-                  className="my-masonry-grid"
-                  columnClassName="my-masonry-grid_column"
+    <div className="portfolio-filter-01">
+      <Tabs>
+        <TabPanel>
+          <div className="portfolio-content ">
+            <Masonry
+              breakpointCols={breakpointColumnsObj}
+              className="my-masonry-grid"
+              columnClassName="my-masonry-grid_column"
+            >
+              {AllPortfolioContent.map((val, i) => (
+                <div
+                  className="portfolio-box-01"
+                  key={i}
+                  data-aos="fade-right"
+                  data-aos-duration="1200"
+                  data-aos-delay={val.delayAnimation}
                 >
-                  {AllPortfolioContent.map((val, i) => (
-                    <div
-                      className="portfolio-box-01"
-                      key={i}
-                      data-aos="fade-right"
-                      data-aos-duration="1200"
-                      data-aos-delay={val.delayAnimation}
-                    >
-                      <div className="portfolio-img">
-                        <div className="portfolio-info">
-                          <h5>{val.title}</h5>
-                          <span>{val.subTitle}</span>
-                         
-                        </div>
-                        {/* End .portfolio-info */}
-                        
-                          
-                          <img
-                            src={`img/portfolio/${val.img}.jpg`}
-                            alt={val.alterText}
-                          />
-                     
-                
-                      </div>
+                  <div className="portfolio-img">
+                    <img
+                      src={`img/portfolio/${val.img}.jpg`}
+                      alt={val.alterText}
+                    />
+                  </div>
 
-                    <div className="siteCode">
-                      <h4><a
-                          href={`${val.link}`} target='_blank'
-                          className="gallery-link"
-                        >Live Site</a>
-                        
-                        </h4>
-                      <h4 className="code"> <a
-                          href={`${val.code}`} target='_blank'
-                          className="gallery-link"
-                        >Code</a></h4>
-                      </div>
-                    </div>
-                  ))}
-                </Masonry>
-              </div>
-              {/* End list wrapper */}
-            </TabPanel>
+                  <div className="siteCode">
+                    <h4>
+                      <a
+                        href={`${val.link}`}
+                        target="_blank"
+                        className="gallery-link"
+                      >
+                        Live Site
+                      </a>
+                    </h4>
 
-          
-        </Tabs>
-      </div>
- 
+                    <p className="siteCode wutang">{val.title}</p>
+
+                    <h4 className="code">
+                      {" "}
+                      <a
+                        href={`${val.code}`}
+                        target="_blank"
+                        className="gallery-link"
+                      >
+                        Code
+                      </a>
+               
+                    </h4>  
+
+                   
+                  </div>
+                  <div className="appInfo">
+                  <p className="siteCode descript">{val.subTitle}</p>
+                  </div>
+                </div>
+              ))}
+            </Masonry>
+          </div>
+
+          {/* End list wrapper */}
+        </TabPanel>
+      </Tabs>
+    </div>
   );
 };
 
