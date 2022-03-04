@@ -134,9 +134,7 @@ const PortfolioAnimation = () => {
 
                    
                   </div>
-                  <div className="appInfo">
-                  <p className="siteCode descript">{val.subTitle}</p>
-                  </div>
+                
                 </div>
               ))}
             </Masonry>
