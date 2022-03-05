@@ -16,7 +16,7 @@ const ServiceContent = [
     delayAnimation: "200",
   },
   {
-    icon: "icon-adjustments",
+    icon: "icon-strategy",
     title: "Node.js",
     // descriptions: `Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
     // eiusmod tempor incididunt ut labore et dolore magna aliqua.`,
@@ -30,15 +30,15 @@ const ServiceContent = [
     delayAnimation: "",
   },
   {
-    icon: "icon-newspaper",
-    title: "PostgreSQL",
+    icon: "icon-presentation",
+    title: "EJS",
     // descriptions: `Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
     // eiusmod tempor incididunt ut labore et dolore magna aliqua.`,
     delayAnimation: "200",
   },
   {
-    icon: "icon-global",
-    title: "Web Accessibility",
+    icon: "icon-picture",
+    title: "SCSS Frameworks",
     // descriptions: `Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
     // eiusmod tempor incididunt ut labore et dolore magna aliqua.`,
     delayAnimation: "400",

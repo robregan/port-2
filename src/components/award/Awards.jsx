@@ -23,12 +23,12 @@ const AwardContnet = [
   },
   {
     img: "postgres1",
-    awardName: "PostgreSQL",
+    awardName: "EJS",
    
   },
   {
     img: "web2",
-    awardName: "Web Accessibility",
+    awardName: "SCSS frameworks",
     
   },
 ];
