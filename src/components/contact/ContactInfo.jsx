@@ -14,7 +14,7 @@ const ContactInfo = () => {
           <li className="media">
             <i className="icon icon-map"></i>
             <span className="media-body">
-              Point Pleasant, NJ
+              S Londonderry, VT
             </span>
           </li>
           {/* End li */}
