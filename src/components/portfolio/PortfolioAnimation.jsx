@@ -58,12 +58,11 @@ const AllPortfolioContent = [
   },
 
   {
-    img: 'gypsy',
-    title: 'Age Guesser',
-    subTitle:
-      "By using Azure's Computer Vision API, this app will guess your age!",
-    link: 'https://gypsy-queen.herokuapp.com/',
-    code: 'https://github.com/robregan/face-analyza',
+    img: 'inv2',
+    title: 'MERN Inventory App',
+    subTitle: 'login to see stats about your store',
+    link: 'https://inventory-802.netlify.app/',
+    code: 'https://github.com/robregan/inventory',
   },
   {
     img: 'object',
