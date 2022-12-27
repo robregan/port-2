@@ -35,11 +35,11 @@ const AllPortfolioContent = [
     code: 'https://github.com/robregan/web3app',
   },
   {
-    img: 'chill3',
-    title: 'Chillow Marketplace',
-    subTitle: 'Browse current listings or post your property for sale!',
-    link: 'https://chillow.netlify.app/',
-    code: 'https://github.com/robregan/house-market-app',
+    img: 'openai',
+    title: 'OpenAI GPT-3 Chatbot',
+    subTitle: 'Chat with a bot that uses GPT-3 to generate responses',
+    link: 'https://openai-chi.vercel.app/',
+    code: 'https://github.com/robregan/openai',
   },
   {
     img: 'face9',
