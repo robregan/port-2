@@ -89,7 +89,7 @@ const About = () => {
                       <ul>
                         <li>
                           <label>Address: </label>
-                          <span>Pt. Pleasant, NJ</span>
+                          <span>S. Londonderry, Vermont</span>
                         </li>
                         <li>
                           <label>Email: </label>
