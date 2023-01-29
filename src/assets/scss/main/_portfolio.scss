@@ -148,6 +148,8 @@
   .portfolio-img {
     position: relative;
     overflow: hidden;
+
+    object-fit: contain;
   }
   img {
     width: 100%;

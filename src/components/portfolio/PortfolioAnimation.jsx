@@ -42,12 +42,12 @@ const AllPortfolioContent = [
     code: 'https://github.com/robregan/openai',
   },
   {
-    img: 'face9',
-    title: 'AI Emotion Analyzer',
+    img: 'pink',
+    title: 'Facial Spa Website',
     subTitle:
       'Users upload a photo and the program will analyze the emotions of detected faces.',
-    link: 'https://emotion-check.herokuapp.com/',
-    code: 'https://github.com/robregan/emotion-check',
+    link: 'https://pinkglowfacialroom.com',
+    code: 'https://github.com/robregan/pinkglow-new-1',
   },
   {
     img: 'thumbstore',
