@@ -36,7 +36,7 @@ const AllPortfolioContent = [
   },
   {
     img: 'openai',
-    title: 'OpenAI GPT-3 Chatbot',
+    title: 'Rob-oT: GPT-3 Chatbot',
     subTitle: 'Chat with a bot that uses GPT-3 to generate responses',
     link: 'https://openai-chi.vercel.app/',
     code: 'https://github.com/robregan/openai',
@@ -100,10 +100,16 @@ const PortfolioAnimation = () => {
                   data-aos-delay={val.delayAnimation}
                 >
                   <div className='portfolio-img'>
-                    <img
-                      src={`img/portfolio/${val.img}.jpg`}
-                      alt={val.alterText}
-                    />
+                    <a
+                      href={`${val.link}`}
+                      target='_blank'
+                      className='gallery-link'
+                    >
+                      <img
+                        src={`img/portfolio/${val.img}.jpg`}
+                        alt={val.alterText}
+                      />
+                    </a>
                   </div>
 
                   <div className='siteCode'>
