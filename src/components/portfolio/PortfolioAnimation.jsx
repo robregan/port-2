@@ -13,6 +13,12 @@ const breakpointColumnsObj = {
 
 const AllPortfolioContent = [
   {
+    img: 'dalle',
+    title: 'AI Image Generator',
+    link: 'https://image-generator.com/',
+    code: 'https://github.com/robregan/dalle',
+  },
+  {
     img: 'feedback',
     title: 'Feedback App',
     subTitle: 'Leave ratings and reviews for products and services!',
@@ -26,12 +32,7 @@ const AllPortfolioContent = [
     link: 'https://github-finda.netlify.app/',
     code: 'https://github.com/robregan/github-user-search',
   },
-  {
-    img: 'dalle',
-    title: 'AI Image Generator',
-    link: 'https://image-generator.com/',
-    code: 'https://github.com/robregan/dalle',
-  },
+
   {
     img: 'openai',
     title: 'Rob-oT: GPT-3 Chatbot',
