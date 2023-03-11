@@ -27,12 +27,10 @@ const AllPortfolioContent = [
     code: 'https://github.com/robregan/github-user-search',
   },
   {
-    img: 'eth2',
-    title: 'Web3 App',
-    subTitle:
-      'Send ETH anywhere in the world! A gif and a message will be forever attached to your transaction on the blockchain',
-    link: 'https://cryptobobby.digital/',
-    code: 'https://github.com/robregan/web3app',
+    img: 'dalle',
+    title: 'AI Image Generator',
+    link: 'https://image-generator.com/',
+    code: 'https://github.com/robregan/dalle',
   },
   {
     img: 'openai',
@@ -113,7 +111,7 @@ const PortfolioAnimation = () => {
                   </div>
 
                   <div className='siteCode'>
-                    <h4>
+                    {/* <h4>
                       <a
                         href={`${val.link}`}
                         target='_blank'
@@ -121,17 +119,18 @@ const PortfolioAnimation = () => {
                       >
                         Live Site
                       </a>
-                    </h4>
-
-                    <p className='siteCode wutang'>{val.title}</p>
+                    </h4> */}
+                    <a
+                      href={`${val.link}`}
+                      target='_blank'
+                      className='gallery-link'
+                    >
+                      <p className='siteCode wutang'>{val.title}</p>
+                    </a>
 
                     <h4 className='code'>
                       {' '}
-                      <a
-                        href={`${val.code}`}
-                        target='_blank'
-                        className='gallery-link'
-                      >
+                      <a href={`${val.code}`} target='_blank' className='bobby'>
                         Code
                       </a>
                     </h4>
