@@ -15,7 +15,7 @@ const AllPortfolioContent = [
   {
     img: 'dalle',
     title: 'AI Image Generator',
-    link: 'https://image-generator.com/',
+    link: 'https://generate-images.com/',
     code: 'https://github.com/robregan/dalle',
   },
   {
@@ -34,11 +34,11 @@ const AllPortfolioContent = [
   },
 
   {
-    img: 'openai',
-    title: 'Rob-oT: GPT-3 Chatbot',
+    img: 'chatty',
+    title: 'Rob-oT v2: GPT-3.5 Chatbot',
     subTitle: 'Chat with a bot that uses GPT-3 to generate responses',
-    link: 'https://openai-chi.vercel.app/',
-    code: 'https://github.com/robregan/openai',
+    link: 'https://murmuring-lake-97708.herokuapp.com/',
+    code: 'https://github.com/robregan/openaiApi',
   },
   {
     img: 'pink',
