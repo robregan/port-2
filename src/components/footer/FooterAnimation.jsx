@@ -1,25 +1,39 @@
-import React from "react";
-import {
-  FaTwitter,
-  FaLinkedinIn,
-  FaGithub,
-} from "react-icons/fa";
+import React from 'react'
+import { FaTwitter, FaLinkedinIn, FaGithub } from 'react-icons/fa'
 
 const SocialShare = [
-  { Social: <FaGithub />, link: "https://github.com/robregan" },
-  { Social: <FaTwitter />, link: "https://twitter.com/rob_regan_dev" },
-  { Social: <FaLinkedinIn />, link: "https://www.linkedin.com/in/robert-regan-dev/" },
-  ];
+  {
+    Social: <FaGithub />,
+    link: 'https://github.com/robregan',
+    label: 'GitHub profile',
+  },
+  {
+    Social: <FaTwitter />,
+    link: 'https://twitter.com/rob_regan_dev',
+    label: 'Twitter profile',
+  },
+  {
+    Social: <FaLinkedinIn />,
+    link: 'https://www.linkedin.com/in/robert-regan-dev/',
+    label: 'LinkedIn profile',
+  },
+]
 
 const Footer = () => {
   return (
     <>
-      <div className="row align-items-center">
-        <div className="col-md-6 my-2">
-          <div className="nav justify-content-center justify-content-md-start">
+      <div className='row align-items-center'>
+        <div className='col-md-6 my-2'>
+          <div className='nav justify-content-center justify-content-md-start'>
             {SocialShare.map((val, i) => (
-              <a key={i} href={`${val.link}`} rel="noreferrer" target="_blank">
-               <h1 className="socials">{val.Social}</h1>
+              <a
+                key={i}
+                href={`${val.link}`}
+                aria-label={val.label}
+                rel='noreferrer'
+                target='_blank'
+              >
+                {val.Social}
               </a>
             ))}
           </div>
@@ -44,7 +58,7 @@ const Footer = () => {
       </div>
       {/* End .row */}
     </>
-  );
-};
+  )
+}
 
-export default Footer;
+export default Footer

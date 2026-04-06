@@ -1,7 +1,6 @@
 import React from 'react'
 import { Tabs, TabPanel } from 'react-tabs'
 
-import { FiPlus } from 'react-icons/fi'
 import Masonry from 'react-masonry-css'
 
 const breakpointColumnsObj = {
@@ -103,10 +102,11 @@ const PortfolioAnimation = () => {
                       href={`${val.link}`}
                       target='_blank'
                       className='gallery-link'
+                      aria-label={`View ${val.title} project`}
                     >
                       <img
                         src={`img/portfolio/${val.img}.webp`}
-                        alt={val.alterText}
+                        alt={val.title}
                       />
                     </a>
                   </div>
