@@ -24,7 +24,7 @@ A personal portfolio website showcasing my projects, skills, and experience as a
 - Masonry portfolio grid with project links
 - Functional contact form with inline success message
 - Google Maps embed for location context
-- Lighthouse scores: Performance 72 · Accessibility 97 · SEO 100
+- Lighthouse scores: Performance 72 · Accessibility 97 · Best Practices 96 · SEO 100
 
 ---
 
