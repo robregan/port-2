@@ -6,7 +6,7 @@ const SERVICE_ID = 'service_z39bzhj'
 const TEMPLATE_ID = 'template_tfmq4ll'
 const PUBLIC_KEY = 'ibl3Rfxcmbow2WxqC'
 
-const Contact = () => {
+const Contact = ({ onSubmitSuccess }) => {
   const [submitted, setSubmitted] = useState(false)
   const [sending, setSending] = useState(false)
 
@@ -31,6 +31,7 @@ const Contact = () => {
         PUBLIC_KEY,
       )
       setSubmitted(true)
+      if (onSubmitSuccess) onSubmitSuccess()
     } catch (error) {
       console.error('EmailJS error:', error)
       alert(
