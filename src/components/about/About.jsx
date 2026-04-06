@@ -55,7 +55,7 @@ const About = () => {
                     wonderful web apps that provide value to my community.
                   </p>
                 </div>
-                <div className='info-list'>
+                {/* <div className='info-list'>
                   <div className='row'>
                     <div className='col-sm-6'>
                       <ul>
@@ -82,7 +82,7 @@ const About = () => {
                       </ul>
                     </div>
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
             {/* End col */}
