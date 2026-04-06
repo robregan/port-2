@@ -11,16 +11,30 @@ const Contact = () => {
   } = useForm()
 
   const onSubmit = async (data, e) => {
-    const formData = new FormData(e.target)
+    e.preventDefault()
 
-    await fetch('/', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-      body: new URLSearchParams(formData).toString(),
-    })
+    const body = new URLSearchParams({
+      'form-name': 'contact',
+      name: data.name,
+      email: data.email,
+      subject: data.subject,
+      comment: data.comment,
+    }).toString()
 
-    e.target.reset()
-    setSubmitted(true)
+    try {
+      await fetch('/', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+        body,
+      })
+      setSubmitted(true)
+      e.target.reset()
+    } catch (error) {
+      console.error('Form submission error:', error)
+      alert(
+        'Something went wrong. Please try emailing me directly at rsr@robregan.dev',
+      )
+    }
   }
 
   if (submitted) {
