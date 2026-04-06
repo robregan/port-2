@@ -54,7 +54,10 @@ const Contact = () => {
         name='contact'
         method='POST'
         data-netlify='true'
-        onSubmit={handleSubmit(onSubmit)}
+        onSubmit={(e) => {
+          e.preventDefault()
+          handleSubmit(onSubmit)(e)
+        }}
       >
         <input type='hidden' name='form-name' value='contact' />
         <div className='row'>
