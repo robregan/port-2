@@ -1,8 +1,14 @@
 import React, { useState } from 'react'
 import { useForm } from 'react-hook-form'
+import emailjs from '@emailjs/browser'
+
+const SERVICE_ID = 'service_z39bzhj'
+const TEMPLATE_ID = 'template_tfmq4ll'
+const PUBLIC_KEY = 'ibl3Rfxcmbow2WxqC'
 
 const Contact = () => {
   const [submitted, setSubmitted] = useState(false)
+  const [sending, setSending] = useState(false)
 
   const {
     register,
@@ -11,26 +17,27 @@ const Contact = () => {
   } = useForm()
 
   const onSubmit = async (data) => {
-    const body = new URLSearchParams({
-      'form-name': 'contact',
-      name: data.name,
-      email: data.email,
-      subject: data.subject,
-      comment: data.comment,
-    }).toString()
-
+    setSending(true)
     try {
-      await fetch('/', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-        body,
-      })
+      await emailjs.send(
+        SERVICE_ID,
+        TEMPLATE_ID,
+        {
+          name: data.name,
+          email: data.email,
+          subject: data.subject,
+          comment: data.comment,
+        },
+        PUBLIC_KEY,
+      )
       setSubmitted(true)
     } catch (error) {
-      console.error('Form submission error:', error)
+      console.error('EmailJS error:', error)
       alert(
-        'Something went wrong. Please try emailing me directly at rsr@robregan.dev',
+        'Something went wrong. Please email me directly at rsr@robregan.dev',
       )
+    } finally {
+      setSending(false)
     }
   }
 
@@ -47,13 +54,7 @@ const Contact = () => {
 
   return (
     <>
-      <form
-        name='contact'
-        method='POST'
-        data-netlify='true'
-        onSubmit={handleSubmit(onSubmit)}
-      >
-        <input type='hidden' name='form-name' value='contact' />
+      <form onSubmit={handleSubmit(onSubmit)}>
         <div className='row'>
           <div className='col-md-6'>
             <div className='form-group mb-3'>
@@ -119,8 +120,12 @@ const Contact = () => {
 
           <div className='col-12'>
             <div className='btn-bar'>
-              <button className='px-btn px-btn-white' type='submit'>
-                Send Message
+              <button
+                className='px-btn px-btn-white'
+                type='submit'
+                disabled={sending}
+              >
+                {sending ? 'Sending...' : 'Send Message'}
               </button>
             </div>
           </div>
