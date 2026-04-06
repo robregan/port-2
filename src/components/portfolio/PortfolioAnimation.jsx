@@ -105,7 +105,7 @@ const PortfolioAnimation = () => {
                       className='gallery-link'
                     >
                       <img
-                        src={`img/portfolio/${val.img}.jpg`}
+                        src={`img/portfolio/${val.img}.webp`}
                         alt={val.alterText}
                       />
                     </a>
