@@ -10,9 +10,7 @@ const Contact = () => {
     formState: { errors },
   } = useForm()
 
-  const onSubmit = async (data, e) => {
-    e.preventDefault()
-
+  const onSubmit = async (data) => {
     const body = new URLSearchParams({
       'form-name': 'contact',
       name: data.name,
@@ -28,7 +26,6 @@ const Contact = () => {
         body,
       })
       setSubmitted(true)
-      e.target.reset()
     } catch (error) {
       console.error('Form submission error:', error)
       alert(
@@ -54,10 +51,7 @@ const Contact = () => {
         name='contact'
         method='POST'
         data-netlify='true'
-        onSubmit={(e) => {
-          e.preventDefault()
-          handleSubmit(onSubmit)(e)
-        }}
+        onSubmit={handleSubmit(onSubmit)}
       >
         <input type='hidden' name='form-name' value='contact' />
         <div className='row'>
